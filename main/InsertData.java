@@ -9,7 +9,7 @@ import javax.swing.*;
 public class InsertData extends SQL {
 
     public InsertData() {
-        super.setInsertQueries("insert into app (lista) values (?)");
+        super.setInsertQueries("insert into table_lista (naran_lista) values (?)");
     }
 
     public void Insert(String lista){
